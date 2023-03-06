@@ -1,0 +1,33 @@
+.results {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.search {
+    text-align: center;
+    padding: 15px;
+}
+
+.input {
+    font-size: 25px;
+}
+.pagination-button {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #0069d9;
+}
